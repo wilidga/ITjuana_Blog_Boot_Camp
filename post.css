@@ -1,0 +1,26 @@
+@import "./constant.css";
+
+/* post.html*/
+.post-feature {
+  display: flex;
+  flex-direction: row;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.post-details {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+.post-details > a {
+  text-decoration: none;
+}
+
+.post-details > a:hover {
+  color: var(--blue);
+}
+
+.image {
+  padding-top: 75px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
